@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="volunteer1 details" section_id="3bfdab59db2b3300d04a1fc76896199a" sys_domain="global" table="x_398370_college_f_listofevents" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>v1n</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>a40e2f59db2b3300d04a1fc768961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>v1r</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>280e2f59db2b3300d04a1fc768961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>v1s</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>a80e2f59db2b3300d04a1fc768961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>2c0e2f59db2b3300d04a1fc768961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>v1b</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>ac0e2f59db2b3300d04a1fc768961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>v1y</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:21</sys_created_on>
+            <sys_id>200e2f59db2b3300d04a1fc768961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="volunteer1 details" display_value="volunteer1 details" name="x_398370_college_f_listofevents" sys_domain="global" view="Default view">3bfdab59db2b3300d04a1fc76896199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>volunteer1 details</caption>
+            <header>false</header>
+            <name>x_398370_college_f_listofevents</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:59:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bfdab59db2b3300d04a1fc76896199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>volunteer1 details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="College Fest Management" source="x_398370_college_f">77532f11db2b3300d04a1fc7689619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Fest Management">77532f11db2b3300d04a1fc7689619cb</sys_scope>
+            <sys_update_name>sys_ui_section_3bfdab59db2b3300d04a1fc76896199a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:59:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

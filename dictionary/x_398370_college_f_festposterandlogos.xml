@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="FestPosterandLogos" max_length="40" name="x_398370_college_f_festposterandlogos" type="collection">
+        <element label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element label="Poster" max_length="40" name="poster" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Description of the Theme(in 3-4 lines)" mandatory="true" max_length="2000" name="theme_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Theme Idea" mandatory="true" max_length="40" name="theme_idea" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="Status" max_length="40" name="theme_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Branch" mandatory="true" max_length="40" name="t_branch" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="125" name="t_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="t_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll Number" mandatory="true" max_length="40" name="t_roll" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" mandatory="true" max_length="40" name="t_section" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+                <element inactive_on_update="false" label="E" sequence="4" value="e"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year" mandatory="true" max_length="40" name="t_year" type="string">
+            <choice>
+                <element inactive_on_update="false" label="I" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="II" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="III" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="IV" sequence="3" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="flash_status" table="x_398370_college_f_flashmob" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flash_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Auditioned</label>
+            <language>en</language>
+            <name>x_398370_college_f_flashmob</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>611dab19db2b3300d04a1fc7689619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:55:19</sys_updated_on>
+            <value>not auditioned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flash_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Selected</label>
+            <language>en</language>
+            <name>x_398370_college_f_flashmob</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a11dab19db2b3300d04a1fc7689619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:55:19</sys_updated_on>
+            <value>selected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flash_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Selected</label>
+            <language>en</language>
+            <name>x_398370_college_f_flashmob</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>211dab19db2b3300d04a1fc7689619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:55:19</sys_updated_on>
+            <value>not selected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>flash_status</element>
+            <name>x_398370_college_f_flashmob</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:55:19</sys_created_on>
+            <sys_id>a91dab19db2b3300d04a1fc7689619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>flash_status</sys_name>
+            <sys_package display_value="College Fest Management" source="x_398370_college_f">77532f11db2b3300d04a1fc7689619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Fest Management">77532f11db2b3300d04a1fc7689619cb</sys_scope>
+            <sys_update_name>sys_choice_x_398370_college_f_flashmob_flash_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:55:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

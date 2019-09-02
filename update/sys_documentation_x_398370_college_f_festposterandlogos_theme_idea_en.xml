@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="theme_idea" label="Theme Idea" language="en" table="x_398370_college_f_festposterandlogos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>theme_idea</element>
+            <help/>
+            <hint/>
+            <label>Theme Idea</label>
+            <language>en</language>
+            <name>x_398370_college_f_festposterandlogos</name>
+            <plural>Theme Ideas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:45:43</sys_created_on>
+            <sys_id>05eaaf95db2b3300d04a1fc76896197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Theme Idea</sys_name>
+            <sys_package display_value="College Fest Management" source="x_398370_college_f">77532f11db2b3300d04a1fc7689619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Fest Management">77532f11db2b3300d04a1fc7689619cb</sys_scope>
+            <sys_update_name>sys_documentation_x_398370_college_f_festposterandlogos_theme_idea_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:45:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

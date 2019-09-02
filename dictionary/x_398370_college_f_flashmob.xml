@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="FlashMob" max_length="40" name="x_398370_college_f_flashmob" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Branch" mandatory="true" max_length="40" name="flash_branch" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive="true" inactive_on_update="true" label="EEE" sequence="0" value="eee"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive="true" inactive_on_update="true" label="MECH" sequence="1" value="mech"/>
+                <element inactive="true" inactive_on_update="true" label="CIVIL" sequence="2" value="civil"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive="true" inactive_on_update="true" label="EIE" sequence="3" value="eie"/>
+                <element inactive="true" inactive_on_update="true" label="CSIT" sequence="4" value="csit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="150" name="flash_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="150" name="flash_name" type="string"/>
+        <element label="Phoneno" mandatory="true" max_length="40" name="flash_phoneno" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" mandatory="true" max_length="40" name="flash_section" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not auditioned" label="Status" max_length="40" name="flash_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Auditioned" sequence="0" value="not auditioned"/>
+                <element inactive_on_update="false" label="Selected" sequence="1" value="selected"/>
+                <element inactive_on_update="false" label="Not Selected" sequence="2" value="not selected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year" mandatory="true" max_length="40" name="flash_year" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IV" sequence="0" value="iv"/>
+                <element inactive_on_update="false" label="III" sequence="1" value="iii"/>
+                <element inactive_on_update="false" label="II" sequence="2" value="ii"/>
+            </choice>
+        </element>
+    </element>
+</database>

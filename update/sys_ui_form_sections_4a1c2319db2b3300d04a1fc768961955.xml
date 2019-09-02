@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4a1c2319db2b3300d04a1fc768961955" sys_domain="global" table="x_398370_college_f_festposterandlogos" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:50:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1c2319db2b3300d04a1fc768961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_398370_college_f_festposterandlogos" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">4a1c2319db2b3300d04a1fc768961955</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">759a6795db2b3300d04a1fc768961986</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:50:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:50:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>461c2319db2b3300d04a1fc768961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_398370_college_f_festposterandlogos" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">4a1c2319db2b3300d04a1fc768961955</sys_ui_form>
+            <sys_ui_section caption="Upload Logo" display_value="Upload Logo" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">751c2319db2b3300d04a1fc768961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:50:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:50:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1c2319db2b3300d04a1fc76896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_398370_college_f_festposterandlogos" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">4a1c2319db2b3300d04a1fc768961955</sys_ui_form>
+            <sys_ui_section caption="Upload College Poster" display_value="Upload College Poster" name="x_398370_college_f_festposterandlogos" sys_domain="global" view="Default view">7d1c2319db2b3300d04a1fc768961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:50:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_398370_college_f_festposterandlogos</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 04:50:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a1c2319db2b3300d04a1fc768961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_398370_college_f_festposterandlogos</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="College Fest Management" source="x_398370_college_f">77532f11db2b3300d04a1fc7689619cb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="College Fest Management">77532f11db2b3300d04a1fc7689619cb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4a1c2319db2b3300d04a1fc768961955</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 04:50:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

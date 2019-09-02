@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="ListOfEvents" max_length="40" name="x_398370_college_f_listofevents" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" mandatory="true" max_length="40" name="branch" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" mandatory="true" max_length="40" name="co1b" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="cse" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="gender" mandatory="true" max_length="40" name="co1g" type="string">
+            <choice>
+                <element inactive_on_update="false" label="male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="others" sequence="2" value="others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mail" mandatory="true" max_length="120" name="co1m" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="120" name="co1n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" mandatory="true" max_length="120" name="co1r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" mandatory="true" max_length="120" name="co1s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3rd" label="Year" mandatory="true" max_length="40" name="co1y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="3rd" sequence="0" value="3rd"/>
+                <element inactive_on_update="false" label="4th" sequence="1" value="4th"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" mandatory="true" max_length="40" name="co2b" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="cse" sequence="0" value="cse"/>
+                <element inactive="true" inactive_on_update="true" label="it" sequence="1" value="it"/>
+                <element inactive="true" inactive_on_update="true" label="ece" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mail" mandatory="true" max_length="120" name="co2m" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="120" name="co2n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" mandatory="true" max_length="120" name="co2r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" mandatory="true" max_length="120" name="co2s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3rd" label="Year" mandatory="true" max_length="40" name="co2y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="3rd" sequence="0" value="3rd"/>
+                <element inactive_on_update="false" label="4th" sequence="1" value="4th"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" max_length="40" name="co3b" type="string">
+            <choice>
+                <element inactive_on_update="false" label="cse" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="it" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ece" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="120" name="co3n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" max_length="120" name="co3r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" max_length="120" name="co3s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3rd" label="Year" max_length="40" name="co3y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="3rd" sequence="0" value="3rd"/>
+                <element inactive_on_update="false" label="4th" sequence="1" value="4th"/>
+            </choice>
+        </element>
+        <element label="Estimated Budget" max_length="40" name="eb" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tech" label="Event Type" mandatory="true" max_length="40" name="et" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tech" sequence="0" value="tech"/>
+                <element inactive_on_update="false" label="Non Tech" sequence="1" value="non tech"/>
+                <element inactive_on_update="false" label="Special" sequence="2" value="special"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name of the Event" mandatory="true" max_length="40" name="event_name" type="string"/>
+        <element label="Phn" max_length="40" name="phn" type="phone_number_e164"/>
+        <element label="phone no" max_length="40" name="phone_no" type="phone_number_e164"/>
+        <element label="projectors" max_length="40" name="pj" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Preffered room" max_length="120" name="pr" type="string"/>
+        <element label="speakers" max_length="40" name="sp" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="requested" label="Status" max_length="40" name="st" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tech" label="Event type" mandatory="true" max_length="40" name="tech" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tech" sequence="0" value="tech"/>
+                <element inactive_on_update="false" label="Non tech" sequence="1" value="non tech"/>
+                <element inactive_on_update="false" label="Special" sequence="2" value="special"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_27" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event description" max_length="4000" name="u_string_52" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="If any" max_length="2000" name="u_string_58" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" mandatory="true" max_length="40" name="v1b" type="string">
+            <choice>
+                <element inactive_on_update="false" label="cse" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="it" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ece" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="120" name="v1n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" mandatory="true" max_length="120" name="v1r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" mandatory="true" max_length="120" name="v1s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1st" label="Year" mandatory="true" max_length="40" name="v1y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1st" sequence="0" value="1st"/>
+                <element inactive_on_update="false" label="2nd" sequence="1" value="2nd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" mandatory="true" max_length="40" name="v2b" type="string">
+            <choice>
+                <element inactive_on_update="false" label="cse" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="it" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ece" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" mandatory="true" max_length="124" name="v2n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" mandatory="true" max_length="120" name="v2s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1st" label="Year" mandatory="true" max_length="40" name="v2y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1st" sequence="0" value="1st"/>
+                <element inactive_on_update="false" label="2nd" sequence="1" value="2nd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cse" label="Branch" max_length="40" name="v3b" type="string">
+            <choice>
+                <element inactive_on_update="false" label="cse" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="it" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ece" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="120" name="v3n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" max_length="120" name="v3r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Section" max_length="10" name="v3s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1st" label="Year" max_length="40" name="v3y" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1st" sequence="0" value="1st"/>
+                <element inactive_on_update="false" label="2nd" sequence="1" value="2nd"/>
+            </choice>
+        </element>
+    </element>
+</database>
